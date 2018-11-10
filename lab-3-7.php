@@ -29,7 +29,7 @@
   ?>
   <p>
   <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
-    Введите число от 1 до 10:
+    Введите число от 1 до 100:
     <input type="text" name="a" size="3" autocomplete="off">
     <input type="hidden" name="h" value=<?php print $h ?>>
     <p><input type="submit" name="obr" value="проверить">
