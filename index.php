@@ -55,7 +55,11 @@
 	<li><a href="s-3/s3-6-2.html" class="zadanie">s3-6-2</a></li>
 	<li><a href="s-3/s3-6-9.html" class="zadanie">s3-6-9</a></li>
 	<li><a href="s-3/s3-6-16.html" class="zadanie">s3-6-16</a></li>
+</ul>
+<hr>
 <ul>
-
+	<li><a href="s-4/index.php">s-4</a></li>
+	<li><a href="s-4-2/index.php">s-4-2</a></li>
+</ul>
 </body>
 </html>
