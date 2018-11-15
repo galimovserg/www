@@ -16,6 +16,7 @@
   }
  ?>
  <form action="save_edit.php" metod="get">
+   <input type="hidden" name="id" value="<?php echo $id;?>">
    Имя: <input type="text" name="name" size="50" autocomplete="off" value="<?php echo $name; ?>"><br>
    Логин: <input type="text" name="login" size="20" autocomplete="off" value="<?php echo $login; ?>"><br>
    Пароль: <input type="password" name="password" size="20" autocomplete="off" value="<?php echo $password; ?>"><br>
