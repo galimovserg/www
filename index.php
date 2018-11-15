@@ -33,10 +33,15 @@
 	<li><a href="lab-2-2.php">lab-2-2</a></li>
 	<li><a href="lab-2-3.php">lab-2-3</a></li>
 	<li><a href="lab-2-4.php">lab-2-4</a></li>
+	<li><a href="lab-2-4-2.php">lab-2-4-2</a></li>
 	<li><a href="lab-2-5-1.php" class="zadanie">lab-2-5-1</a></li>
+	<li><a href="lab-2-5-2.php" class="zadanie">lab-2-5-2</a></li>
 	<li><a href="lab-2-5-6.php" class="zadanie">lab-2-5-6</a></li>
+	<li><a href="lab-2-5-7.php" class="zadanie">lab-2-5-7</a></li>
 	<li><a href="lab-2-6-1.php" class="zadanie">lab-2-6-1</a></li>
+	<li><a href="lab-2-6-2.php" class="zadanie">lab-2-6-2</a></li>
 	<li><a href="lab-2-6-6.php" class="zadanie">lab-2-6-6</a></li>
+	<li><a href="lab-2-6-7.php" class="zadanie">lab-2-6-7</a></li>
 </ul>
 <hr>
 <ul>
