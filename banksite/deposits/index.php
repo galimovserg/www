@@ -36,7 +36,7 @@
   echo "Всего депозитов: $num";
 ?>
 <p>
-<a href="new.html">Открыть вклад</a>
+<a href="new.php">Открыть вклад</a>
 <hr>
 <a href="../banks">Банки</a><br>
 <a href="../depositprograms">Программы депозитов</a><br>
