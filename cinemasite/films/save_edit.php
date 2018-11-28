@@ -10,9 +10,9 @@
   $res=mysqli_query($db,$querystr);
   if(mysqli_affected_rows($db)>0){
     echo "<p>Все сохранено!<br>";
-    echo "<a href='index.php'>Вернутся к каталогу</a>";
+    echo "<a href='index.php'>Вернуться к каталогу</a>";
   }else{
     echo "<p>Ошибка!<br>";
-    echo "<a href='index.php'>Вернутся к каталогу</a>";
+    echo "<a href='index.php'>Вернуться к каталогу</a>";
   }
 ?>

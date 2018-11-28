@@ -5,7 +5,7 @@ $res=mysqli_query($db,"insert into movie set film_name='".$_GET["film_name"].
 "', film_year='".$_GET["film_year"]."', film_boxoff='".$_GET["film_boxoff"]."'");
 if(mysqli_affected_rows($db)>0){
   echo "<p>Спасибо!<br>";
-  echo "<a href='index.php'>Вернутся к каталогу фильмов</a>";
+  echo "<a href='index.php'>Вернуться к каталогу фильмов</a>";
 }else{
   echo "ошибка";
 }

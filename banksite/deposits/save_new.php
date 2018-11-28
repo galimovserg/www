@@ -9,7 +9,7 @@ $_GET["start_value"]
 ."'");
 if(mysqli_affected_rows($db)>0){
   echo "<p>Спасибо!<br>";
-  echo "<a href='index.php'>Вернутся к списку вкладов</a>";
+  echo "<a href='index.php'>Вернуться к списку вкладов</a>";
 }else{
   echo "ошибка";
 }
