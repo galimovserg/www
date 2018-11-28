@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Добавление нового банка</title>
+  </head>
+  <body>
+    <h2>Добавление</h2>
+    <form action="save_new.php" metod="get">
+      Название: <input type="text" name="name" maxlength="50" size="50" autocomplete="off"><br>
+      ИНН: <input type="text" name="inn" maxlength="12" size="12" autocomplete="off"><br>
+      Страна: <input type="text" name="country" maxlength="30" size="30" autocomplete="off"><br>
+      Класс надежности: <input type="text" name="rclass" maxlength="20" size="20" autocomplete="off"><br>
+      Объем активов: <input type="text" name="avalue" maxlength="30" size="30" autocomplete="off"><br>
+      <p>
+        <input type="submit" name="add" value="Добавить">
+        <input type="reset" name="b2" value="Очистить"></p>
+    </form>
+    <a href="index.php">Вернуться к каталогу</a>
+  </body>
+</html>
