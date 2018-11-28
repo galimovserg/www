@@ -4,7 +4,7 @@
 <?php
   require_once "../connect.php";
  ?>
-<h2>Депозиты:</h2>
+<h2>Вклады:</h2>
  <table border="1">
    <tr>
      <th> Название </th>
@@ -36,7 +36,7 @@
   echo "Всего депозитов: $num";
 ?>
 <p>
-<a href="new.html">Открыть депозит</a>
+<a href="new.html">Открыть вклад</a>
 <hr>
 <a href="../banks">Банки</a><br>
 <a href="../depositprograms">Программы депозитов</a><br>
