@@ -31,6 +31,8 @@
 ?>
 <p>
 <a href="new.php">Добавить киносеанс</a><br>
+<a href="gen_pdf.php">Отчет в PDF</a><br>
+<a href="gen_xls.php">Отчет в Exel</a><br>
 <hr>
 <a href="../films">Фильмы</a><br>
 <a href="../halls">Кинозалы</a><br>
