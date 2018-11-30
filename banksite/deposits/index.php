@@ -38,6 +38,7 @@
 <p>
 <a href="new.php">Открыть вклад</a><br>
 <a href="gen_xls.php">Отчет в XLS</a>
+<a href="gen_pdf.php">Отчет в PDF</a>
 <hr>
 <a href="../banks">Банки</a><br>
 <a href="../depositprograms">Программы депозитов</a><br>
