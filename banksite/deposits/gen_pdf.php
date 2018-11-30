@@ -50,13 +50,13 @@ function FancyTable($header, $data)
 	foreach($data as $row)
 	{
     $i++;
-    $this->Cell($w[0],6,$i,'LR',0,'C',$fill);
-		$this->Cell($w[1],6,iconv("utf-8","windows-1251",$row["bname"]),'LR',0,'C',$fill);
-		$this->Cell($w[2],6,iconv("utf-8","windows-1251",$row["country"]),'LR',0,'C',$fill);
-		$this->Cell($w[3],6,iconv("utf-8","windows-1251",$row["rclass"]),'LR',0,'C',$fill);
-		$this->Cell($w[4],6,iconv("utf-8","windows-1251",$row["dpname"]),'LR',0,'C',$fill);
-    $this->Cell($w[5],6,iconv("utf-8","windows-1251",$row["dppercent"])."%",'LR',0,'C',$fill);
-    $this->Cell($w[6],6,iconv("utf-8","windows-1251",$row["dpsum"]),'LR',0,'C',$fill);
+    $this->Cell($w[0],7,$i,'LR',0,'C',$fill);
+		$this->Cell($w[1],7,iconv("utf-8","windows-1251",$row["bname"]),'LR',0,'C',$fill);
+		$this->Cell($w[2],7,iconv("utf-8","windows-1251",$row["country"]),'LR',0,'C',$fill);
+		$this->Cell($w[3],7,iconv("utf-8","windows-1251",$row["rclass"]),'LR',0,'C',$fill);
+		$this->Cell($w[4],7,iconv("utf-8","windows-1251",$row["dpname"]),'LR',0,'C',$fill);
+    $this->Cell($w[5],7,iconv("utf-8","windows-1251",$row["dppercent"])."%",'LR',0,'C',$fill);
+    $this->Cell($w[6],7,iconv("utf-8","windows-1251",$row["dpsum"]),'LR',0,'C',$fill);
     $this->Ln();
 		$fill = !$fill;
 	}
