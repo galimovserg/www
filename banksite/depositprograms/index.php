@@ -1,5 +1,7 @@
 <html>
-<head><title>Программы депозитов</title></head>
+<head><title>Программы депозитов</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
 <body>
 <?php
   require_once "../connect.php";
@@ -21,8 +23,15 @@
   bank.name as bname
   from bank, dpprog
   where bank.id=dpprog.bid");
+  $fl=false;
   while($row=mysqli_fetch_array($res)){
-    echo "<tr>";
+    $fl=!$fl;
+    if($fl){
+      echo "<tr class='stone'>";
+    }
+    else{
+      echo "<tr class='sttwo'>";
+    }
     echo "<td>".$row["dpname"]."</td>";
     echo "<td>".$row["percent"]."</td>";
     echo "<td>".$row["bname"]."</td>";

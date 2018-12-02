@@ -1,5 +1,7 @@
 <html>
-<head><title>Банки</title></head>
+<head><title>Банки</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
 <body>
 <?php
   require_once "../connect.php";
@@ -15,8 +17,16 @@
      <th> Уничтожить </th>
 <?php
   $res=mysqli_query($db,"select * from bank");
+  $fl=false;
   while($row=mysqli_fetch_array($res)){
-    echo "<tr>";
+    $fl=!$fl;
+    if($fl){
+      echo "<tr class='stone'>";
+    }
+    else{
+      echo "<tr class='sttwo'>";
+    }
+
     echo "<td>".$row["name"]."</td>";
     echo "<td>".$row["rclass"]."</td>";
     echo "<td>".$row["country"]."</td>";

@@ -1,5 +1,7 @@
 <html>
-<head><title>Депозиты</title></head>
+<head><title>Депозиты</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
 <body>
 <?php
   require_once "../connect.php";
@@ -20,8 +22,15 @@
   deposit.date as date,
   deposit.start_value as value
   from deposit, dpprog where deposit.prog_id=dpprog.id");
+  $fl=false;
   while($row=mysqli_fetch_array($res)){
-    echo "<tr>";
+    $fl=!$fl;
+    if($fl){
+      echo "<tr class='stone'>";
+    }
+    else{
+      echo "<tr class='sttwo'>";
+    }
     echo "<td>".$row["name"]." (".$row["percent"]."%)"."</td>";
     echo "<td>".$row["date"]."</td>";
     echo "<td>".$row["value"]."</td>";
@@ -37,7 +46,7 @@
 ?>
 <p>
 <a href="new.php">Открыть вклад</a><br>
-<a href="gen_xls.php">Отчет в XLS</a>
+<a href="gen_xls.php">Отчет в XLS</a><br>
 <a href="gen_pdf.php">Отчет в PDF</a>
 <hr>
 <a href="../banks">Банки</a><br>

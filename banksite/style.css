@@ -1,0 +1,25 @@
+table{
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #3200C8;
+}
+th{
+  height: 35px;
+  background-color: #6400C8;
+  color:#FFFFFF;
+  padding: 5px;
+}
+table a{
+  text-decoration: none;
+}
+td{
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.stone{
+  background-color: #FFFFFF;
+}
+.sttwo{
+  background-color: #E0EBFF;
+}
